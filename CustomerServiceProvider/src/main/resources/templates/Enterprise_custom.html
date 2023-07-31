@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <title>Enterprise Customer Page</title>
+
+</head>
+
+<body>
+
+    <h1>Enterprise Customer Page</h1>
+
+    <form action="#" th:action="@{/submit-enterprise-customer}" method="post">
+
+        <label for="enterpriseCustomerId">Enterprise Customer ID:</label>
+
+        <input type="text" id="enterpriseCustomerId" name="enterpriseCustomerId" required>
+
+        <br>
+
+        <label for="encustModel">Enterprise Customer Model:</label>
+
+        <input type="text" id="encustModel" name="encustModel" required>
+
+        <br>
+
+        <label for="ecname">Enterprise Customer Name:</label>
+
+        <input type="text" id="ecname" name="ecname" required>
+
+        <br>
+
+        <label for="ordername">Order Name:</label>
+
+        <input type="text" id="ordername" name="ordername" required>
+
+        <br>
+
+        <label for="duration">Duration:</label>
+
+        <input type="text" id="duration" name="duration" required>
+
+        <br>
+
+        <label for="ecprice">Enterprise Customer Price:</label>
+
+        <input type="text" id="ecprice" name="ecprice" required>
+
+        <br>
+
+        <button type="submit">Add Enterprise Customer</button>
+
+    </form>
+
+</body>
+
+</html>

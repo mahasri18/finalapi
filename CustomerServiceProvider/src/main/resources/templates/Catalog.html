@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <title>Catalog Page</title>
+
+</head>
+
+<body>
+
+    <h1>Catalog Page</h1>
+
+    <form action="#" th:action="@{/submit-plan}" method="post">
+
+        <label for="planId">Plan ID:</label>
+
+        <input type="text" id="planId" name="planId" required>
+
+        <br>
+
+        <label for="plan">Plan:</label>
+
+        <input type="text" id="plan" name="plan" required>
+
+        <br>
+
+        <label for="price">Price:</label>
+
+        <input type="text" id="price" name="price" required>
+
+        <br>
+
+        <label for="duration">Duration:</label>
+
+        <input type="text" id="duration" name="duration" required>
+
+        <br>
+
+        <button type="submit" class="btn btn-primary">Add Plan</button>
+
+    </form>
+
+</body>
+
+</html>
